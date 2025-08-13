@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 76;
+}
+h2 {
+    font-size: 36px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container img {
+    width: 100px;
+}
+.btn-cont {
+    justify-content: end;
+}
+.Sign-up{
+    color: white;
+    background-color: #28CB8B;
+}
+.greencont {
+    color: #4caf4f;
+}
+.main-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f5f7fa;
+}
+.left-containt {
+    padding: 161px 104px 161px 144px;
+}
+.register {
+    background-color: #4caf4f;
+    color: #ffffff;
+    border-color: #4caf4f ;
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    gap: 10px;
+}
+.Right-containt img {
+   width: 391px;
+   height: 407px;
+}
+.Right-containt {
+    padding: 96px;
+}
+.Dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fa;
+    padding-bottom: 20px;
+}
+.logo-text {
+    justify-content: center;
+    text-align: center;
+   
+}
+.logo-text h3 {
+    width: 1110px;
+    height: 44px; 
+}
+.logo-text {
+    padding: 40px;
+}
+.logo-text p {
+    gap: 8px;
+}
+.company-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 144px;
+    filter: grayscale(100px);
+}
+.community h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.community {
+    padding: 40px 144px;
+}
+.community p {
+    text-align: center;
+    padding-top: 8px;
+}
+.community-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.main-card {
+    width: 400px;
+    height: 300px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 0.5px solid #Abbed1;
+    box-shadow: rgba(0, 0, 0, #Abbed1);
+}
+.upper-sec {
+    justify-content: center;
+    padding-top: 38px;
+    text-align: center;
+}
+.upper-sec img {
+    width: 90px;
+}
+.lower-sec {
+    justify-content: center;
+    text-align: center;
+    padding-top: 8px;
+}
+.learn-more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 433px; */
+    padding: 0 97px;
+
+}
+
+.right img {
+    padding: 42px 49px;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+} 
+.left {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.left h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+.left p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.btnlearn-more {
+    background-color: #4caf4f !important;
+    color: #4caf4f;
+    border-radius: 4px;
+    padding: 14px 32px;
+}
+.collab {
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 150px;
+}
+.main-head h1 {
+    font-size: 55px;
+}
+.main-head h1 span {
+    font-size: 55px;
+    color: #4caf4f;
+}
+.main-head p {
+    font-size: 22px;
+}
+.unlock-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+.unlock-para {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 99px ;
+}
+.tesla-logo{
+    display: flex;
+    background-color: #f5f7fa;
+    height: 400px;
+    padding: 32px 144px;
+    gap: 78px;
+}
+.tesla-img {
+    justify-content: center;
+    align-items: center;
+}
+.tesla-cont {
+     justify-content: center;
+     text-align: start;
+     padding-top: 25px;
+     padding-right: 60px
+}
+.tesla-cont h4 {
+    color: #4caf4f;
+}
+.logo-div {
+    display: flex;
+    gap: 41px;
+    padding: 32px;
+}
+.logo-div img {
+    filter: grayscale(100);
+}
+.logo-div a {
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #4caf4f;
+    padding: 8px;
+    gap: 8px;
+}
+.logo-div a h3 {
+}
+.logo-div a img {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
