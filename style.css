@@ -106,7 +106,6 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    padding-left: 150px;
 }
 .main-card {
     width: 400px;
@@ -201,16 +200,18 @@ h2 {
     height: 400px;
     padding: 32px 144px;
     gap: 78px;
+    justify-content: center;
+    align-items: center;
 }
 .tesla-img {
     justify-content: center;
     align-items: center;
 }
 .tesla-cont {
-     justify-content: center;
-     text-align: start;
-     padding-top: 25px;
-     padding-right: 60px
+    justify-content: center;
+    text-align: start;
+    padding-top: 25px;
+    padding-right: 60px
 }
 .tesla-cont h4 {
     color: #4caf4f;
@@ -226,13 +227,10 @@ h2 {
 
 .logo-div a {
     display: flex;
-    height: 30px;
     font-size: 20px;
     line-height: 28px;
     text-decoration: none;
     color: #4caf4f;
-    padding: 8px;
-    gap: 8px;
 }
 
 .logo-div a img {
