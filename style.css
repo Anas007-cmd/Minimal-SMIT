@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'inner';
+    src: url(Fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
 *{
     padding: 0;
     margin: 0;
+}
+body {
+    font-family: 'inner';
 }
 h1 {
     font-size: 76;
